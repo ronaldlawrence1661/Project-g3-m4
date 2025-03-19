@@ -1,0 +1,29 @@
+VCRTS: Vehicular Cloud Real Time System
+Project Milestone 4: Class Implementation
+Due Sunday, Mar 23rd at 11:59pm
+
+Complete the following tasks for the classes that you have designed in the previous phase. I have
+made a sample project called ATM available on Canvas that you can use as an example.
+
+
+Implementation
+• Simply write a Java source file for each class (instance variable, methods). Start with
+implementing the classes that don’t depend on others
+Implement the classes on top of your GUI. Your implementation should be able to run the
+following scenario:
+
+Client can submit a job to VC and the information will be stored in a file.
+Vehicle Owner can register in the system and the information will be stored in a file.
+VC Controller will be able to compute the completion time for each job.
+How to calculate the completion time of a job?
+
+System keeps track of all the jobs based on their arrival time. Use FIFO algorithm to calculate
+the completion time. For example, if you have 3 jobs in the system with following arrival order:
+
+ID: 345, 56, 690
+Duration: 5, 2, 9
+
+
+The completion time for the jobs are
+5, 7, 16
+Note: There should be a button on the GUI that calculates the completion time
